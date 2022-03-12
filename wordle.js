@@ -7,9 +7,10 @@ var col = 0; //current letter for that attempt
 
 var gameOver = false;
 // var word = "SQUID";
-var wordList = ["tiger", "horse", "whale", "zebra", "mouse", "moose", "koala", "sheep", "camel", "hyena", "otter", "rhino", "panda", "dingo", "bison", "llama", "lemur", "skunk","bilby", "sloth"]
+var wordList = ["tiger", "horse", "whale", "zebra", "mouse", "moose", "koala", "sheep", "camel", "hyena", "otter", "rhino", "panda", "dingo", "bison", "llama", "lemur", "skunk","bilby", "sloth", "snake", "eagle", "liger", "chimp", "hippo", "gecho", "snail", "mouse", "louse", ]
 
-var guessList = ["tiger", "horse", "whale", "zebra", "mouse", "moose", "koala", "sheep", "camel", "hyena", "otter", "rhino", "panda", "dingo", "bison", "llama", "lemur", "skunk","bilby", "sloth"]
+var guessList = ["tiger", "horse", "whale", "zebra", "mouse", "moose", "koala", "sheep", "camel", "hyena", "otter", "rhino", "panda", "dingo", "bison", "llama", "lemur", "skunk","bilby", "sloth", "snake", "eagle", "liger", "chimp", "hippo", "gecho", "snail", "mouse", "louse", ]
+                
 
 guessList = guessList.concat(wordList);
 
